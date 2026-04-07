@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hid {
+    height: 225px;
+    background: rgba(1, 174, 231, 1);
+    text-align: center;
+}
+
+.hid p {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    padding-top: 28px;
+    margin-bottom: 26px;
+}
+
+.hid h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 522px;
+    height: 86px;
+    margin-left: 450px;
+    color: white;
+}
+
+.ota {
+    max-height: 969px;
+}
+
+.sasat {
+    width: 1030px;
+    height: 768px;
+    background: white;
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    bottom: 880px;
+    left: 210px;
+    padding: 107px 100px 120px 107px;
+}
+
+.sasat p {
+    margin-bottom: 30px;
+    width: 823px;
+}
+
+.mimu {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(1, 174, 231, 1);
+}
+
+.didu {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+
+}
+
+.gugu {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+
+}
+
+.sasat p {
+    font-size: 26px;
+}
+
+.suslik {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+    color: rgba(1, 174, 231, 1);
+}
+
+.sss {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lalu {
+    background: rgba(217, 217, 217, 1);
+    padding: 94px 100px 85px 99px;
+}
+
+.ertik {
+    width: 600px;
+    height: 585px;
+    text-align: center;
+    padding: 106px 80px 75px 80px;
+    background: rgba(1, 174, 231, 1);
+    ;
+}
+
+.aaa {
+    background: yellow;
+    width: 90px;
+    height: 5px;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 38px;
+    margin-bottom: 39px;
+}
+
+.ertik h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 341px;
+    height: 43px;
+    margin: auto;
+}
+
+.ertik p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 440px;
+    height: 279px;
+    margin: auto;
+}
+
+.lalu img {
+    margin-top: 35px;
+}
+
+.ddd {
+    text-align: center;
+}
+
+.qq {
+    margin-top: 55px;
+    margin-bottom: 33px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(1, 174, 231, 1);
+}
+
+.ww {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.ddd p{
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+margin-bottom: 25px;
+width: 823px;
+height: 144px;
+margin: auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url("/public/fitness.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.brand {
+  color: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 15px 0;
+}
+
+.blue {
+  color: #00bfff;
+}
+
+.subtitle {
+  color: #ffd700;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 14px;
+  border: none;
+  width: 220px;
+  background: #e6e6e6;
+  color: #000;
+  font-weight: 600;
+}
+
+.form button {
+  padding: 14px 30px;
+  background: #00bfff;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #009acd;
+}
+
+.policy {
+  font-size: 11px;
+  margin-top: 15px;
+  color: #ccc;
+}
+.innovations {
+  background: #17a2c6;
+  padding: 60px 80px;
+  color: white;
+}
+
+.innovations h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.card p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card span {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffc107;
+  margin-top: 10px;
+}
